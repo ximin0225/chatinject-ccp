@@ -1,0 +1,20 @@
+# ChatInject 复现环境核心依赖（Python >= 3.10）
+# agentdojo 框架导入链所需（后五项与本次实验模型无关，仅为 import 通过）
+openai>=1.59.7
+pydantic[email]>=2.7.1
+docstring-parser>=0.15
+tenacity>=8.2.3
+typing-extensions>=4.11.0
+pyyaml>=6.0.1
+click>=8.1.7
+deepdiff>=7.0.1
+rich>=13.7.1
+python-dotenv>=1.0.1
+anthropic>=0.47.0
+cohere>=5.3.4
+google-genai>=1.15.0
+langchain>=0.1.17
+# 报告与分析（可选）
+pandas
+matplotlib
+python-docx

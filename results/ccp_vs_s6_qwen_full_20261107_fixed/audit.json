@@ -1,0 +1,15 @@
+{
+  "status": "COMPLETE_AUDITED",
+  "planned_pairs": 389,
+  "final_episodes": 778,
+  "raw_traces_verified": 778,
+  "duplicate_episodes": 0,
+  "missing_episodes": 0,
+  "final_errors": 0,
+  "source_hashes_match": true,
+  "trace_scores_match_ledger": true,
+  "elapsed_minutes": 22.64,
+  "formal_directory": "/home/ubuntu/projects/chatinject-reproduction/results/ccp_vs_s6_qwen_full_20261107_fixed",
+  "aborted_directory": "/home/ubuntu/projects/chatinject-reproduction/results/ccp_vs_s6_qwen_full_20261107",
+  "aborted_run_included": false
+}

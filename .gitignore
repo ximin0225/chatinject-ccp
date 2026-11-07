@@ -1,0 +1,49 @@
+# ==== 密钥（绝不入库） ====
+api_key.txt
+*.key
+.env
+.env.*
+!.env.example
+api_key.*
+*.pem
+*.p12
+*.pfx
+id_rsa
+id_ed25519
+credentials.json
+*credentials*.json
+*dialogue-session.txt
+*.bak
+*.bak_*
+
+# 原始实验轨迹与运行过程文件仅留在本地
+results/**/logs/
+results/logs/
+results/**/provider_responses/
+results/*.runner.log
+results/**/episodes.jsonl
+results/**/usage.json
+results/**/progress.json
+results/**/failed_traces/
+
+# ==== Python 运行产物 ====
+__pycache__/
+*.pyc
+*.egg-info/
+.venv/
+
+# ==== 文档装配的临时文件 ====
+report/_pagecheck.docx
+report/_oldcheck.docx
+report/.local-backups/
+课程报告_原稿备份.docx
+课程报告_单模型版备份_2026-11-03.docx
+/tmp/
+
+# ==== 系统杂项 ====
+nohup.out
+.DS_Store
+Thumbs.db
+
+# ==== 课程报告不入库（负责人直接分发） ====
+课程报告.docx

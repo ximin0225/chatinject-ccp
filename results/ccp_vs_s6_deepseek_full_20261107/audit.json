@@ -1,0 +1,17 @@
+{
+  "status": "COMPLETE_AUDITED",
+  "planned_pairs": 389,
+  "verified_episodes": 778,
+  "raw_traces_verified": 778,
+  "errors": 0,
+  "missing": 0,
+  "duplicates": 0,
+  "source_hashes_match": true,
+  "scores_match_raw_traces": true,
+  "requested_model": "deepseek-chat",
+  "observed_response_models": [
+    "deepseek-flash"
+  ],
+  "responses_with_reasoning_content": 0,
+  "elapsed_minutes": 20.71
+}

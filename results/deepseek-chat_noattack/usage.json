@@ -1,0 +1,7 @@
+{
+  "calls": 224,
+  "prompt_tokens": 673044,
+  "completion_tokens": 30867,
+  "prompt_cache_hit_tokens": 612224,
+  "errors": 0
+}

@@ -1,0 +1,27 @@
+{
+  "model": "deepseek-chat",
+  "attack": "noattack",
+  "per_suite": {
+    "banking": {
+      "n": 16,
+      "utility_pct": 100
+    },
+    "travel": {
+      "n": 20,
+      "utility_pct": 75
+    },
+    "slack": {
+      "n": 21,
+      "utility_pct": 100
+    }
+  },
+  "utility_pct_weighted": 91.23,
+  "elapsed_sec": 285,
+  "usage": {
+    "calls": 224,
+    "prompt_tokens": 673044,
+    "completion_tokens": 30867,
+    "prompt_cache_hit_tokens": 612224,
+    "errors": 0
+  }
+}

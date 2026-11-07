@@ -1,0 +1,27 @@
+{
+  "status": "COMPLETE_AUDITED",
+  "planned_pairs": 389,
+  "verified_episodes": 778,
+  "raw_traces_verified": 778,
+  "provider_response_files_verified": 778,
+  "errors": 0,
+  "missing": 0,
+  "duplicates": 0,
+  "source_hashes_match": true,
+  "requested_model": "glm-5.3-flash",
+  "observed_response_models": [
+    "glm-5.3-flash"
+  ],
+  "thinking": "enabled",
+  "reasoning_effort": "low",
+  "responses_with_reasoning_content": 1458,
+  "provider_response_token_counts_match": true,
+  "truncated_responses": 0,
+  "workers_observed": [
+    4,
+    8
+  ],
+  "resumed_after_completed_episodes": 67,
+  "usage_scope": "Final recorded episodes; interrupted in-flight request usage may be absent",
+  "elapsed_minutes": 43.34
+}
